@@ -1,0 +1,143 @@
+@import url(reset.css);
+header {
+	width: 100%;
+	height: 70px;
+	background-color: pink;
+	color: black;
+	font-family: Helvetica;
+	font-size: 20px;
+	display: inline-block;
+	font-weight: bold;	
+}
+.head {
+	padding-top: 25px;
+}
+a {
+	text-decoration: none;
+	padding-left: 100px;
+}
+.menu{
+margin-top: -25px;
+margin-left: 90%;
+}
+main {
+width: 100%;
+height: 643px;
+background:url("../img/1.png");
+background-attachment: scroll;
+}
+input{
+	width: 100%;
+	font-size: 20px;
+	color: grey;
+	border: 2px solid black;
+	height: 30px;
+}
+label {
+	line-height: 3.5rem;
+	font-size: 35px;
+	display: block;
+}
+.image {
+	padding-top: 15px;
+}
+.personal {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 462px;
+	margin-left: 40px;
+	padding: 23px 30px;
+	background: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-family: Helvetica;
+	color: #FFFFFF;
+}
+.text {
+width: 785px;
+height: 57px;
+font-family: Helvetica;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+margin: 0px auto;
+background-color: lightgrey;
+transition-property: opacity;
+color: #FEB700;
+border-radius: 20px;
+padding-left: 25px;
+}
+footer {
+	width: 100%;
+	height: 190px;
+	background-color: pink;
+	color: black;
+	font-family: Helvetica;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+[type="submit"]{
+width: 200px;
+height: 60px;
+margin-top: 30px;
+background: #FEB700;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 30px;
+color: #FFFFFF;
+cursor: pointer;
+margin-left: 145px;
+opacity: 0.95;
+}
+[type="submit"]:hover {
+	background-color: blue;
+	opacity: 1;
+}
+@media screen and (max-width: 600px) {
+.personal {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 262px;
+}
+main {
+width: 100%;
+height: 643px;
+background:url("../img/1.png");
+background-attachment: fixed;
+}
+label {
+	line-height: 1.5rem;
+	font-size: 15px;
+	display: block;
+}
+header {
+
+	height: 60px;
+	font-size: 15px;
+	font-weight: bold;	
+}
+[type="submit"]{
+width: 150px;
+height: 50px;
+margin-left: 65px;
+}
+.text {
+width: 390px;
+height: 47px;
+font-family: Helvetica;
+font-size: 20px;
+padding-left: 25px;
+padding-top: -15px;
+margin-top: 20px;
+}
+a {
+	padding-left: 25px;
+}
+.menu{
+margin-top: -15px;
+margin-left: 75%;
+}}
